@@ -99,7 +99,7 @@ a:hover{
   transition: var(--transition);
 }
 
-btn:hover{
+.btn:hover{
   background: var(--color-white);
   color: var(--color-bg);
   border-color: transparent
