@@ -2,7 +2,7 @@ import React from 'react'
 
 export const portofolio = () => {
   return (
-    <div>portofolio</div>
+    <section id ='portfolio'>portofolio</section>
   )
 }
 export default portofolio
