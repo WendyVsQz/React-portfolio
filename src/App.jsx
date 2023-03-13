@@ -1,11 +1,11 @@
 import React from 'react'
-import Nav from './Components/Navbar/navbar'
+import Nav from './Components/Navbar/Nav'
 import Home from './Components/Home/Home'
 import About from './Components/About/About'
-import Portofolio from './Components/Portfolio/portofolio'
+import Portofolio from './Components/Portfolio/Portfolio'
 import Contact from './Components/Contact/Contact'
 
-export const App = () => {
+const App = () => {
   return (
     <>
     

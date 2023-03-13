@@ -6,7 +6,7 @@ import{IoCodeWorkingSharp} from 'react-icons/io5'
 import {AiFillMessage} from 'react-icons/ai'
 import { useState } from 'react'
 
-const navbar = () => {
+const Nav = () => {
   const {activeNav, setActiveNav} = useState('#')
   return (
     <nav> {/* home section */}
@@ -25,4 +25,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Nav
