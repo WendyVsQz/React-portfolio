@@ -13,30 +13,47 @@ const Portfolio = () => {
     <h2> Portfolio </h2>
 
   <div className='container portfolio_container'>
-  <article className='portfolio_item'>
-  <div className='portfolio_item-image'></div>
-    <h3> This is a portfolio item tittle</h3>
+  <article className='portfolio_item'> 
+  <div className='portfolio_item-image'>
+    <h3> Weather dashboard</h3>
       <a href='https://github.com/WendyVsQz/Weather-dashboard'className='btn'>Github</a>
       <img src={project1} alt='weather dashboard'></img>
-
-      <h3> This is a portfolio item tittle</h3>
-      <a href='https://github.com/WendyVsQz/Weather-dashboard'className='btn'>Github</a>
-      <img src={project2} alt='weather dashboard'></img>
-
-      <h3> This is a portfolio item tittle</h3>
-      <a href='https://github.com/WendyVsQz/Weather-dashboard'className='btn'>Github</a>
-      <img src={project3} alt='weather dashboard'></img>
-
-      <h3> This is a portfolio item tittle</h3>
-      <a href='https://github.com/WendyVsQz/Weather-dashboard'className='btn'>Github</a>
-      <img src={project4} alt='weather dashboard'></img>
-
-      <h3> This is a portfolio item tittle</h3>
-      <a href='https://github.com/WendyVsQz/Weather-dashboard'className='btn'>Github</a>
-      <img src={project5} alt='weather dashboard'></img>
-
+  </div>
   </article>
-    </div>
+
+  <article className='portfolio_item'>
+  <div className='portfolio_item-image'>
+    <h3> Work day planner </h3>
+      <a href='https://github.com/WendyVsQz/Work-day-planner'className='btn'>Github</a>
+      <img src={project2} alt='Work day planner'></img>
+  </div>
+  </article>
+
+  <article className='portfolio_item'>
+  <div className='portfolio_item-image'>
+    <h3> password generator </h3>
+      <a href='https://github.com/WendyVsQz/Password-generator'className='btn'>Github</a>
+      <img src={project3} alt='password generator'></img>
+  </div>
+  </article>
+
+  <article className='portfolio_item'>
+  <div className='portfolio_item-image'>
+    <h3> Readme generator </h3>
+      <a href='https://github.com/WendyVsQz/Readme-generator'className='btn'>Github</a>
+      <img src={project4} alt='Readme generator'></img>
+  </div>
+  </article>
+
+  <article className='portfolio_item'>
+  <div className='portfolio_item-image'>
+    <h3> Group profile generator</h3>
+      <a href='https://github.com/WendyVsQz/Team-profile-generator'className='btn'>Github</a>
+      <img src={project5} alt='Group profile generator'></img>
+  </div>
+  </article>
+</div>
+
     </section>
 )
 }
