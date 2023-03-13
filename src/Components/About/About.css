@@ -1,0 +1,14 @@
+.about_container{
+    display:grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+.about-me {
+    background: linear-gradient(#212425, transparent);
+    width: 22rem;
+    height: 38rem;
+    position: absolute;
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+}

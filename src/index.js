@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client';
 import App from './App'
 import "./index.css";
 
+// root> home
 const container = document.getElementById('root');
 const root = createRoot(container, <App tab="home"/>);
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import './home.css'
 import CTA from './CTA'
-import ME from '../../Assets/Picsart_23-03-12_16-51-49-451.png'
 import SocialMedia from './SocialMedia'
 
 const home = () => {
@@ -13,10 +12,6 @@ const home = () => {
         <h5 className="text-light">Front End developer</h5>
       <CTA />
       <SocialMedia />
-      
-      <div className='me'>
-        <img src={ME} alt="me"/>
-      </div>
       <a href="#contact" className='scrollDown'> scroll down </a>
       </div>
     </home>

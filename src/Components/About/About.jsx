@@ -1,12 +1,18 @@
 import React from 'react'
+import ME from '../../Assets/me-about.png'
 import './About.css'
 
 export const About = () => {
   return (
     <section id ="about">
-      <text>
 <h5>Get to know me</h5>
 <h1>About me </h1>
+<div className='container about_container'>
+<div className='about_me'>
+        <img src={ME} alt="About image"/>
+      </div>
+</div>
+<div className='about_text'>
 <p>
 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
 accusantium doloremque laudantium,totam rem aperiam, eaque ipsa
@@ -22,7 +28,7 @@ aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
 qui in ea voluptate velit esse quam nihil molestiae consequatur, vel 
 illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
 </p>
-      </text>
+</div>
     </section>
   )
 }
