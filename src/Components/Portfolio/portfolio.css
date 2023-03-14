@@ -4,6 +4,10 @@
     gap: 2.5rem;
 }
 
+section > h2, section > h5 {
+    color: var(--color-light);
+}
+
 .portfolio_item{
     background: var(--color-bg-variant);
     padding: 1.2rem;

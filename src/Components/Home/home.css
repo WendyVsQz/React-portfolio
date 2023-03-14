@@ -1,13 +1,24 @@
+
 .home{
     height: 100vh;
     padding: 7rem;
     overflow: hidden;
 }
 
+.h5, h5 {
+    font-size: 1.25rem;
+    margin: 10px;
+  }
+
 .home_container{
     text-align: center;
     height: 100%;
     position: relative;
+}
+
+.home_container h1 {
+    margin-left: 1rem;
+    font-size: 2.5rem;
 }
 
 /* ----- CTA ----- */
@@ -29,7 +40,7 @@
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 0rem;
+    bottom: -4rem;
 
 }
 

@@ -5,7 +5,6 @@ import './About.css'
 export const About = () => {
   return (
     <section id ="about">
-<h5>Get to know me</h5>
 <h1>About me </h1>
 
 <div className='container about_container'>
