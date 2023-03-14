@@ -18,7 +18,7 @@ section > h2, section > h5 {
 
 .portfolio_item:hover{
     border-color: var(--color-primary-variant);
-    background: transparent;
+    background: #7273751f;
 }
 
 .portfolio_item-image{

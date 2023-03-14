@@ -11,24 +11,24 @@ const Contact = () => {
     <div className='container contact_container'>
       <div className='contact_options'>
         <article className='contact_option'>
-        <MdEmail/>
+        <MdEmail className='contact_option-icon'/>
         <h4>Email</h4>
         <h5>wendyvasr99@hotmail.com</h5>
         <a href='mailto:wendyvasr99@hotmail.com' target='_blank'> send a message </a>
         </article>
         <article className='contact_option'>
-        <BsFillTelephoneFill/>
+        <BsFillTelephoneFill className='contact_option-icon'/>
         <h4>Telephone</h4>
         <h5>+123456789</h5>
         </article>
       </div>
 
-    {/*   {/* form */}
+       {/* form */}
       <form action=''>
         <input type='text' name='name' placeholder='your fullName' required/>
         <input type='email' name='email' placeholder='your email' required/>
         <textarea name='message' rows='7' placeholder= 'your message' required></textarea>
-       */}
+      <button type='submit' className='btn btn-primary'>Send message</button>
       </form>
     </div>
     </section>
