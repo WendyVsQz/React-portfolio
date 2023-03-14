@@ -53,3 +53,20 @@ input, textarea{
     border: 2px solid var(--color-primary-variant);
     resize: none;
 }
+
+/* ---- Media queries (Medium devices) ------*/
+
+@media screen and (max-width: 1024px) {
+    .h5, h5 {
+        font-size: 0.95rem;
+        margin: 10px;
+      }
+}
+
+/* ---- Media queries (small devices) ------*/
+
+@media screen and (max-width: 600px) {
+    .h5, h5 {
+        font-size: 0.72rem;
+      }
+}

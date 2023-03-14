@@ -37,6 +37,10 @@
 /* ---- Media queries (Medium devices) ------*/
 
 @media screen and (max-width: 1024px) {
+  section > h1 {
+    margin-left: 602px;
+    font-size: 2.5rem;
+  }
   p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -48,6 +52,21 @@
 
 @media screen and (max-width: 600px) {
 
+  .about_me {
+    background: linear-gradient(#582929, #0c1e67);
+    width: 15rem;
+    margin-top: -4rem;
+    border-radius: 12rem 12rem 0px 0px;
+    overflow: hidden;
+    height: fit-content;
+  }
+
+  
+p {
+  margin-top: -70px;
+  margin-bottom: 1rem;
+  /* margin-left: 1rem; */
+}
 
 }
 
