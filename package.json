@@ -1,6 +1,6 @@
 {
-  "name": "wendyvsqz_portfolio",
-  "homepage": "https://WendyVsQz.github.io/wendyvsqz_portfolio",
+  "name": "react-portfolio",
+  "homepage": "https://WendyVsQz.github.io/react-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
